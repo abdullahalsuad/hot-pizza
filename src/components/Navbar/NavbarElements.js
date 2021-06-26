@@ -12,10 +12,10 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #43E08D;
   font-size: 2rem;
   display: flex;
-  align-items: center;
+  align-items: start;
   text-decoration: none;
   cursor: pointer;
   @media screen and (max-width: 400px) {

@@ -9,7 +9,7 @@ import {
   SideBtnWrap
 } from './SidebarElements';
 
-const Sidebar = ({ isOpen, toggle }) => {
+function Sidebar  ({ isOpen, toggle }) {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -18,6 +18,9 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarMenu>
         <SidebarLink to='/'>Pizzas</SidebarLink>
         <SidebarLink to='/'>Desserts</SidebarLink>
+        <SidebarLink to='/'>Set Menu</SidebarLink>
+        <SidebarLink to='/'>Cakes And Biscuit</SidebarLink>
+        <SidebarLink to='/'>Drinks</SidebarLink>
         <SidebarLink to='/'>Full Menu</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
