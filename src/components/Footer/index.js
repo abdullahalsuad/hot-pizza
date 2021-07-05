@@ -13,8 +13,7 @@ import {
   SocialMediaWrap,
   SocialLogo,
   SocialIcons,
-  SocialIconLink,
-  Bars
+  SocialIconLink
 } from './FooterElements';
 
 const Footer = () => {
@@ -23,7 +22,8 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>©JAKANAKA PIZZA <Bars /></SocialLogo>
+            <SocialLogo to='/'>© Abdullah Al Suad  </SocialLogo>
+          
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
